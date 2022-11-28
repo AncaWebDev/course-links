@@ -1,0 +1,45 @@
+body{
+	background-image: linear-gradient(to right, rgb(112, 226, 255), rgb(255, 112, 250));
+}
+
+a{
+	text-decoration: none;
+}
+
+h1, h3{
+	font-family: Oswald,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: white;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title{
+	padding-top: 5em;
+}
+
+.card{
+	margin: 80px;
+}
+
+.nav-pills{
+	justify-content: center;
+	padding: 20px;
+}
+
+.links{
+	padding: 20px;
+}
+
+.accordion-title{
+	color: black;
+}
+
+.accordion-title:hover{
+	color: blue;
+}
+
