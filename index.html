@@ -10,28 +10,28 @@
 </head>
 <body>
 	<div class="text-center title">
-		<h1>Coding Course</h1>
-		<h3>Sept 2022 - Dec 2022</h3>
+		<h1><code class="heading-text">Coding Course</code></h1>
+		<h3><code class="heading-text">Sept 2022 - Nov 2022</code></h3>
 	</div>
 	<div class="card">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 		  <li class="nav-item" role="presentation">
 		    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#card-links" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Links</button>
 		  </li>
 		  <li class="nav-item" role="presentation">
 		    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#card-students" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Students</button>
-		  </li>
-		</ul>
+		  </li> 
+		</ul> -->
 		<div class="tab-content" id="pills-tabContent">
 		  <div class="tab-pane fade show active" id="card-links" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
 		  	<div class="accordion links" id="accordionExample">
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingOne">
-			      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			        Week #1
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			        <code class="week-title">1. Introduction - Web Browsers, World Wide Web and the Internet</code>
 			      </button>
 			    </h2>
-			    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+			    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" >
 			      <div class="accordion-body">
 			      	<ul>
 			      		<li>
@@ -94,10 +94,10 @@
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingTwo">
 			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			        Week #2
+			        <code class="week-title">2. Creating your first website in HTML </code>
 			      </button>
 			    </h2>
-			    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+			    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
 			      <div class="accordion-body">
 			        <ul>
 			      		<li>
@@ -154,10 +154,10 @@
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingThree">
 			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			        Week #3
+			       <code class="week-title">3. Styling your website with CSS </code>
 			      </button>
 			    </h2>
-			    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" >
 			      <div class="accordion-body">
 			        <ul>
 			      		<li>
@@ -235,10 +235,10 @@
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingThree">
 			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			        Week #4
+			        <code class="week-title">4. Creating a Landing Page with Flexbox and Bootstrap </code>
 			      </button>
 			    </h2>
-			    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+			    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" >
 			      <div class="accordion-body">
 			        <ul>
 			      		<li>
@@ -347,6 +347,11 @@
 			      					</a>
 			      				</li>
 			      				<li>
+			      					<a href="https://flexiting.com/playground/" target="_blank"> 
+			      						<code class="accordion-title practice-title">Flexbox playground</code>
+			      					</a>
+			      				</li>
+			      				<li>
 			      					<a href="https://www.youtube.com/playlist?list=PLCOZkVgmIDZ2AIUY2WicuKzN9taGyWwT5" target="_blank"> 
 			      						<code class="accordion-title practice-title">Anca's landing page tutorial</code>
 			      					</a>
@@ -359,11 +364,11 @@
 			  </div>
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingThree">
-			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			        Week #5
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			        <code class="week-title">5. Continue working on Landing Page </code>
 			      </button>
 			    </h2>
-			    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+			    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFour" >
 			      <div class="accordion-body">
 			        <ul>
 			      		<li>
@@ -389,17 +394,27 @@
 			      				</li>
 			      			</ul>
 			      		</li>
+			      		<li>
+			      			<strong class="list-title">Uploads</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/1iiwRbAOcKhAqG47eAYa4O-OJ_vKeNt1H/view?usp=sharing" target="_blank"> 
+			      						<code class="accordion-title resource-title">Landing page example - completed</code>
+			      					</a>
+			      				</li>
+							</ul>
+			      		</li>
 			      	</ul>
 			      </div>
 			    </div>
 			  </div>
 			  <div class="accordion-item">
 			    <h2 class="accordion-header" id="headingThree">
-			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			        Week #6
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+			        <code class="week-title">6. Introduction to Javascript - data types, variables, operators, conditional statements  </code>
 			      </button>
 			    </h2>
-			    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+			    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingFour" >
 			      <div class="accordion-body">
 			        <ul>
 			      		<li>
@@ -446,7 +461,310 @@
 			      						<code class="accordion-title resource-title">Three.js - Javascript 3d modelling</code>	
 			      					</a>
 			      				</li>
-			      				
+			      			</ul>
+			      			<li>
+			      			<strong class="list-title">Practice</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank"> 
+			      						<code class="accordion-title practice-title">Free code camp</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=JZeH6LYvH6g&list=PL26pr4T7OzVPAbOKjv3h5n8DRicIU4Kwx&index=11" target="_blank"> 
+			      						<code class="accordion-title practice-title">Media types</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=w4I9rX1ePEg&list=PL26pr4T7OzVPAbOKjv3h5n8DRicIU4Kwx&index=1" target="_blank"> 
+			      						<code class="accordion-title practice-title">Variables</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=IsG4Xd6LlsM" target="_blank"> 
+			      						<code class="accordion-title practice-title">Conditional statements</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		</li>
+			      	</ul>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+			         <code class="week-title">7. Dive in to Javascript - functions, arrays, objects </code>
+			      </button>
+			    </h2>
+			    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingFour" >
+			      <div class="accordion-body">
+			        <ul>
+			      		<li>
+			      			<strong class="list-title">Javascript transcript</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/11xsdINDEoEWAbd1i7mlzx-ERHkCDcl3G/view?usp=sharing" target="_blank"> <code class="accordion-title presentation-title">Day 2</code></a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Resources</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=emLHW0VhzeM" target="_blank"> 
+			      						<code class="accordion-title resource-title">How to add Javascript to our website 1</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=AD5hxsFJc4o" target="_blank"> 
+			      						<code class="accordion-title resource-title">How to add Javascript to our website 2</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_functions.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Javascript Functions</code>	
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_arrays.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Javascript arrays</code>	
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/jsref/jsref_obj_array.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Array methods</code>	
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_objects.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Objects</code>	
+			      					</a>
+			      				</li>
+			      			</ul>
+			      			<li>
+			      			<strong class="list-title">Practice</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://playcode.io/javascript" target="_blank"> 
+			      						<code class="accordion-title practice-title">JS playground - Test your code here</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		</li>
+			      	</ul>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+			        <code class="week-title">8. Javascript Loops and building a Facebook copy </code>
+			      </button>
+			    </h2>
+			    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingFour" >
+			      <div class="accordion-body">
+			        <ul>
+			      		<li>
+			      			<strong class="list-title">Javascript transcript</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/17lYB2_kM2jeWQ4ffhwHdMiJSr3O-J-mM/view?usp=sharing" target="_blank"> <code class="accordion-title presentation-title">Day 3</code></a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Resources</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Javascript for loop</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/jsref/jsref_foreach.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">Javascript forEach loop</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+					     <li>
+			      			<strong class="list-title">Uploads</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/1gV641UbnzYJY_s847x-lT0_9e5gOZxdx/view?usp=sharing" target="_blank"> 
+			      						<code class="accordion-title resource-title">Facebook copy - day 1 complete</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Practice</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://learnjavascript.online/app.html" target="_blank"> 
+			      						<code class="accordion-title practice-title">Free JS Practice</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://github.com/getify/You-Dont-Know-JS" target="_blank"> 
+			      						<code class="accordion-title practice-title">Advanced - You don't know JS</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.udemy.com/course/advanced-javascript-concepts/" target="_blank"> 
+			      						<code class="accordion-title practice-title">Advanced - Paid course</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      	</ul>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+			         <code class="week-title">9. Documnent Object Model (DOM) and Improving the Facebook copy </code>
+			      </button>
+			    </h2>
+			    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingFour" >
+			      <div class="accordion-body">
+			        <ul>
+			      		<li>
+			      			<strong class="list-title">DOM transcript</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/14r4NkkArZ311y3dPnWvkHvbNCnj7vNXP/view?usp=sharing" target="_blank"> <code class="accordion-title presentation-title">DOM</code></a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Resources</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">DOM Explained</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<code>DOM Selectors: </code>
+			      					<a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">getElementById();  </code>
+			      					</a>
+			      					<a href="https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">getElementsByClassName();  </code>
+			      					</a>
+			      					<a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">getElementByTagName();  </code>
+			      					</a>
+			      					<a href="https://www.w3schools.com/jsref/met_document_queryselector.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">querySelector();  </code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.w3schools.com/js/js_htmldom_events.asp" target="_blank"> 
+			      						<code class="accordion-title resource-title">DOM Events</code>
+			      					</a>
+			      				</li>			      			
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Uploads</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/1gV641UbnzYJY_s847x-lT0_9e5gOZxdx/view?usp=sharing" target="_blank"> 
+			      						<code class="accordion-title resource-title">Facebook copy - day 2 complete</code>
+			      					</a>
+			      				</li>
+							</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Practice</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://developer.chrome.com/docs/devtools/console/javascript/" target="_blank"> 
+			      						<code class="accordion-title practice-title">DOM in the console</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=5fb2aPlgoys" target="_blank"> 
+			      						<code class="accordion-title practice-title">Extensive DOM tutorial</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      	</ul>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+			         <code class="week-title">10. The Terminal and where to go from here?</code>
+			      </button>
+			    </h2>
+			    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingFour" >
+			      <div class="accordion-body">
+			        <ul>
+			      		<li>
+			      			<strong class="list-title">Document object transcript</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/14r4NkkArZ311y3dPnWvkHvbNCnj7vNXP/view?usp=sharing" target="_blank"> <code class="accordion-title presentation-title">DOM</code></a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Resources</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-je&gl=je" target="_blank"> 
+			      						<code class="accordion-title resource-title">Download the Terminal - Windows only</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://learnpythonthehardway.org/book/appendixa.html" target="_blank"> 
+			      						<code class="accordion-title resource-title">Command line crash course</code>
+			      					</a>
+			      				</li>
+			      			</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Uploads</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://drive.google.com/file/d/1FyEaZxQcE441oZK0oV-LcnyEAC5VF9Y6/view?usp=sharing" target="_blank"> 
+			      						<code class="accordion-title resource-title">Terminal commands</code>
+			      					</a>
+			      				</li>
+							</ul>
+			      		</li>
+			      		<li>
+			      			<strong class="list-title">Practice</strong>
+			      			<ul>
+			      				<li>
+			      					<a href="https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c" target="_blank"> 
+			      						<code class="accordion-title practice-title">Introduction to Programming - article</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu" target="_blank"> 
+			      						<code class="accordion-title practice-title">Harvard Computer Science course</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=a_7Z7C_JCyo" target="_blank"> 
+			      						<code class="accordion-title practice-title">React.js free course</code>
+			      					</a>
+			      				</li>
+			      				<li>
+			      					<a href="https://www.youtube.com/watch?v=a_7Z7C_JCyo" target="_blank"> 
+			      						<code class="accordion-title practice-title">React.js - 15 project to code along</code>
+			      					</a>
+			      				</li>
 			      			</ul>
 			      		</li>
 			      	</ul>
@@ -455,7 +773,9 @@
 			  </div>
 			</div>
 		  </div>
-		  <div class="tab-pane fade" id="card-students" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+		  <div class="tab-pane fade" id="card-students" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+		  	
+		  </div>
 		</div>	<!-- Bootstrap JS -->
 	</div>
 
